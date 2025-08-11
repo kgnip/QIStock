@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Monitoring Stock QI</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #00c853, #b2ff59, #1de9b6);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        padding: 20px;
+    }
+    @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+    .link-container {
+        margin-top: 40px;
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        animation: fadeIn 1s ease forwards;
+    }
+    .link-btn {
+        background: linear-gradient(135deg, #00e676, #69f0ae);
+        padding: 15px;
+        text-align: center;
+        border-radius: 50px;
+        color: #004d40;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .link-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    footer {
+        margin-top: auto;
+        padding: 20px;
+        font-size: 0.8rem;
+        color: rgba(255,255,255,0.7);
+        text-align: center;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+<body>
+
+<h1>Data Monitoring Stock QI<br>(Quality Inspection)</h1>
+
+<div class="link-container">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLagHS8NWv_kCY49movHHwSMhS3_JHloFoqQALft5aUN_HDw/viewform?usp=header" target="_blank" class="link-btn">Form Input Data Stock QI</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScf2bhrMYbY08SDubPdQ5s_nTzXvItK6KfXwG_4N1bCN7nqsQ/viewform?usp=header" target="_blank" class="link-btn">Form Input Mutasi Sortir</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf06IfuG8S97d-JOJR42Y7H2SgGgKG0KtibBX0JJCcshEDbKw/viewform?usp=header" target="_blank" class="link-btn">Form Serah Terima QI</a>
+</div>
+
+<footer>
+    © 2025 Data Monitoring QI
+</footer>
+
+</body>
+</html>
